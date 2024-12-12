@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String currentDirectory = System.getProperty("user.dir");
+        String currentDirectory = "src/TDir";
         boolean running = true;
 
         while (running) {
